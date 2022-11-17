@@ -1,0 +1,59 @@
+<head>
+    <title>z-index3</title>
+    <style>
+        #box1{
+            position: absolute;
+            height: 40px;
+            width: 900px;
+            background-color: #EF8798;
+            z-index: 1; 
+        }
+        #box2{
+            position: absolute;
+            top: 40px;
+            background-color: #5AB1CA;
+            height: 22px;
+            width: 900px;
+            z-index: 1; 
+        }
+        #img1{
+            position: absolute;
+            z-index: 2; 
+        }
+        #img2{
+            position: absolute;
+            z-index: 4;
+            top: 80px;
+            left: 300px;
+        }
+        #img3{
+            position: absolute;
+            z-index: 5;
+            top: 200px;
+            left: 380px;
+        }
+        #img4{
+            position: absolute;
+            z-index: 3;
+            top: 120px;
+            left: 450px;
+        }
+    </style>
+</head>
+<body>
+<div id="img1">
+    <img src =img/title_layer.gif>
+</div>
+<div id="img2">
+    <img src =img/galss1.gif>
+</div>
+<div id="img3">
+    <img src =img/galss3.gif>
+</div>
+<div id="img4">
+    <img src =img/galss2.gif>
+</div>
+<div id="box1"></div>
+<div id="box2"></div>
+</body>
+</html>
